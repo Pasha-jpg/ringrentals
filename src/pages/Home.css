@@ -1,0 +1,48 @@
+
+
+/* Grid container for recent articles */
+.grid-style1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+/* Article card item - matching property card width */
+.grid-style1 .item {
+  width: calc(33.333% - 30px);
+  margin: 0 15px 30px;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.grid-style1 .item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.form-control-small{
+  height: auto;
+}
+
+/* ============================================
+   HOME ADVANCED SEARCH - SHOW ALL FIELDS
+   ============================================ */
+
+#home-advanced-search .form-group {
+  display: flex;
+  flex-direction: rows;
+  gap: 50px;
+  margin: 0 auto;
+}
+
+select { 
+  /* Remove or override these */
+  height: 40px !important;
+  width: 150px !important;
+  border-radius: 4px !important;
+  border: 1px solid #ddd !important;
+ 
+}

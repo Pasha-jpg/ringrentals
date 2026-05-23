@@ -1,0 +1,22 @@
+.contact-htmlForm{	
+	width: 100%;
+	background-color: white;
+
+	color: #74777c;
+	margin: auto;
+	font-weight: bold;
+	font-size: 0.8 vw;
+	
+}
+
+
+.htmlForm-control, .htmlForm-group{
+	padding:1%;
+	width: 100%; 
+	color: #74777c;
+	
+
+	
+}
+
+

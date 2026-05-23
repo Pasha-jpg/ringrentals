@@ -1,0 +1,39 @@
+/* FORCE HORIZONTAL NAVIGATION - Override Bootstrap 5 */
+@media (min-width: 992px) {
+    .navbar {
+        float: left !important;
+        display: inline-block !important;
+        width: auto !important;
+    }
+    
+    .navbar-nav {
+        margin: 0 !important;
+        padding: 0 !important;
+        display: flex !important;
+       flex-direction: row !important;  /* ← THIS IS THE KEY */
+    }
+    
+    .navbar-nav > li {
+        float: left !important;
+        display: list-item !important;
+    }
+    
+    .navbar-nav > li > a {
+        display: flex;
+        line-height: 110px !important;
+        padding: 0 15px !important;
+        
+
+    }
+    
+    .navbar-collapse {
+        display: block !important;
+        height: auto !important;
+        padding: 0 !important;
+        overflow: visible !important;
+    }
+    
+    .navbar-toggle {
+        display: none !important;
+    }
+}
